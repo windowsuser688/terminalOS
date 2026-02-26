@@ -35,6 +35,6 @@ A boot sector OS in the terminal that can fit in a single floppy disk.
 - Q: What is it inspired from?
 - A: It is inspired by bootOS, another project way before this was released.
 - Q: Why can't i switch to lowercase?
-- A: Due to assembly's strict enforcement codes, assembly forces the command to only be used as uppercase.
+- A: Due to assembly's strict enforcement codes, assembly forces the command to only be used as uppercase, so we implemented a feature that when you type something, it forces it to go uppercase. This will be changed in a update.
 - Q: Is it recommended to install it on my main PC?
 - A: No. It is not recommended to install it on your main PC. However it is possible, but you will have a high risk of losing all your saved work from your previous OS.
