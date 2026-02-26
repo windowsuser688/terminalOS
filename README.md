@@ -4,7 +4,7 @@ A boot sector OS in the terminal that can fit in a single floppy disk.
 ![Image](https://raw.githubusercontent.com/windowsuser688/terminalOS/refs/heads/main/preview_image.PNG)
 
 # How to assemble
-- First, download the zip file and extract it, then get the terminalOS.asm file and paste it where you want.
+- First, download the zip file and extract it, then get the terminalOS.asm file, or download it from the releases and paste it where you want.
 - Next, download the NASM assembler from [here](https://www.nasm.us/) and download the installer.
 - Then, set the NASM Install to the system PATH if you are on Windows. If you are on Linux/macOS, it might have already have the commands you needed during compiling.
 - After installing NASM, go to your terminal and type "nasm -f bin terminalOS.asm -o terminalOS.bin".
