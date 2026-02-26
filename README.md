@@ -9,7 +9,7 @@ A boot sector OS in the terminal that can fit in a single floppy disk.
 - Then, set the NASM Install to the system PATH if you are on Windows. If you are on Linux/macOS, it might have already have the commands you needed during compiling.
 - After installing NASM, go to your terminal and type "nasm -f bin terminalOS.asm -o terminalOS.bin".
 - Then, if you are on macOS/Linux, you might have the "dd" command. If you are on Windows, follow this next step.
-- Download dd for Windows [here.](http://www.chrysocome.net/dd) and paste it in a hidden location, then set it to the PC's PATH.
+- Download dd for Windows [here](http://www.chrysocome.net/dd) and paste it in a hidden location, then set it to the PC's PATH.
 - Then, go to your terminal and type this command: "dd if=/dev/zero of=terminalOS.img bs=512 count=2880".
 - And then, type: "dd if=terminalOS.bin of=terminalOS.img bs=512 count=1 conv=notrunc".
 - You're done assembling and ready to boot into it!
