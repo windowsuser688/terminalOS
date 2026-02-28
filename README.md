@@ -40,4 +40,4 @@ A boot sector OS in the terminal that can fit in a single floppy disk.
 - A: No. It is not recommended to install it on your main PC. However it is possible, but you will have a high risk of losing all your saved work from your previous OS.
 
 # Release date planning
-- 1.0.1: 2/29/2026
+- 1.0.1: 3/1/2026
